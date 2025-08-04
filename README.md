@@ -1,23 +1,46 @@
-# 💼 Maxwell Mutonyi | Personal Portfolio
-
-Welcome to my official portfolio website built as part of the **PLP Academy July 2025 Hackathon Challenge**. This project showcases my background, skills, and projects as a technologist specializing in automation and information systems.
-
-📍 **Live Demo**: [View on GitHub Pages](https://yourusername.github.io/portfolio-maxwell)  
-📄 **Download CV**: [MaxwellMutonyi_CV.pdf](assets/pdf/MaxwellMutonyi_CV.pdf)
 
 ---
 
-## 🌟 About This Project
+## 🛠️ Tech Stack
 
-This portfolio website was developed using pure **HTML5 and CSS3**. It serves as a professional landing page highlighting:
-
-- 👨‍💻 My background and technical competencies
-- 🛠️ Projects I’ve worked on or contributed to
-- 📄 Educational history and downloadable CV
-- 📬 Contact form for professional engagement
+- **HTML5** – semantic and structured content
+- **CSS3** – custom design system using Flexbox, Grid, animations
+- **GitHub Pages** – hosting and deployment
+- **Formspree** – backend for contact form
 
 ---
 
-## 📐 Folder Structure
+## 🧠 Skills Highlighted
 
- 
+- Front-End Web Development (HTML5, CSS3, JavaScript, React.js)
+- Responsive UI/UX Design
+- RESTful API Integration
+- Agile Freelance Development Practices
+
+---
+
+## 🔗 Featured Projects
+
+1. **[Portfolio Website](https://github.com/waltersimekha20/portfolio-walter)**  
+   A fully responsive developer portfolio built with semantic HTML and CSS, showcasing Walter's design and frontend skills.
+
+2. **[Sneaker Shop E-Commerce](https://github.com/waltersimekha20/ecommerce-sneaker-shop)**  
+   Bold, brand-driven online store with high-quality visuals and performance-optimized React-based architecture.
+
+---
+
+## 📬 Contact
+
+- **Email**: [waltersimekha@gmail.com](mailto:waltersimekha@gmail.com)
+- **Phone**: +254 798 255 754
+
+---
+
+## 🏁 Deployment Guide
+
+To run locally:
+
+```bash
+git clone https://github.com/waltersimekha20/portfolio-walter.git
+cd portfolio-walter
+start index.html

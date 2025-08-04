@@ -1,14 +1,12 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "type": "msedge",
-            "request": "launch",
-            "name": "Open index.html",
-            "file": "c:\\Users\\maxwe\\Documents\\portfolio-maxwell\\index.html"
-        }
-    ]
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "msedge",
+      "request": "launch",
+      "name": "Open index.html in Edge",
+      "url": "file:///c:/Users/maxwe/Documents/portfolio-maxwell/index.html",
+      "webRoot": "${workspaceFolder}"
+    }
+  ]
 }

@@ -7,16 +7,16 @@
 
 body {
   font-family: 'Segoe UI', sans-serif;
+  background-color: #fdfdfd;
+  color: #2c2c2c;
   line-height: 1.6;
-  background-color: #f9f9f9;
-  color: #333;
   padding: 0 1rem;
 }
 
-/* Layout & Containers */
+/* Layout */
 header, main, footer {
-  max-width: 960px;
-  margin: 0 auto;
+  max-width: 1000px;
+  margin: auto;
   padding: 2rem 1rem;
 }
 
@@ -24,17 +24,19 @@ header, main, footer {
 header {
   text-align: center;
   padding-bottom: 1rem;
-  border-bottom: 2px solid #eaeaea;
+  border-bottom: 2px solid #e8e8e8;
 }
 
 header h1 {
-  font-size: 2.5rem;
-  color: #003366;
+  font-size: 2.8rem;
+  color: #1d3557;
+  font-weight: 700;
 }
 
 header p {
-  font-size: 1.1rem;
-  color: #666;
+  font-size: 1.2rem;
+  color: #457b9d;
+  margin-top: 0.3rem;
 }
 
 /* Navigation */
@@ -43,116 +45,142 @@ nav ul {
   justify-content: center;
   list-style: none;
   flex-wrap: wrap;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
+  gap: 15px;
 }
 
-nav ul li {
-  margin: 0 10px;
-}
-
-nav a {
+nav ul li a {
   text-decoration: none;
-  color: #003366;
-  font-weight: bold;
-  transition: color 0.3s ease;
+  color: #1d3557;
+  font-weight: 600;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  transition: background 0.3s ease, color 0.3s ease;
 }
 
-nav a:hover {
-  color: #FF6B00;
+nav ul li a:hover {
+  background-color: #a8dadc;
+  color: #ffffff;
 }
 
-/* Sections */
+/* Section Styling */
 section {
-  margin: 2.5rem 0;
+  margin: 3rem 0;
+  padding: 1.5rem;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  transition: box-shadow 0.3s ease;
+}
+
+section:hover {
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
 }
 
 section h2 {
-  font-size: 1.8rem;
-  color: #003366;
+  font-size: 1.9rem;
+  color: #1d3557;
+  border-left: 6px solid #ffb703;
+  padding-left: 0.6rem;
   margin-bottom: 1rem;
-  border-left: 4px solid #FF6B00;
-  padding-left: 0.5rem;
 }
 
 section ul {
-  list-style-type: square;
+  list-style-type: disc;
   margin-left: 1.5rem;
+  color: #333;
 }
 
 .cv-link {
   display: inline-block;
-  margin-top: 1rem;
-  padding: 0.6rem 1rem;
-  background-color: #003366;
+  margin-top: 1.5rem;
+  padding: 0.7rem 1.3rem;
+  background-color: #1d3557;
   color: #fff;
   text-decoration: none;
-  border-radius: 4px;
+  border-radius: 6px;
+  transition: background 0.3s ease;
 }
 
 .cv-link:hover {
-  background-color: #0055a5;
+  background-color: #457b9d;
 }
 
 /* Projects */
 #projects ul li {
   margin-bottom: 1rem;
-  background: #fff;
   padding: 1rem;
-  border-left: 5px solid #FF6B00;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  background-color: #f1faee;
+  border-left: 5px solid #ffb703;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.03);
+}
+
+#projects a {
+  color: #1d3557;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#projects a:hover {
+  text-decoration: underline;
 }
 
 /* Contact Form */
 form {
-  background-color: #fff;
-  padding: 1.5rem;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  background-color: #fdfdfd;
+  padding: 1.8rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
   max-width: 600px;
 }
 
 form label {
-  font-weight: bold;
+  font-weight: 600;
   display: block;
-  margin: 0.8rem 0 0.3rem;
+  margin: 1rem 0 0.3rem;
 }
 
 form input,
 form textarea {
   width: 100%;
-  padding: 0.6rem;
+  padding: 0.8rem;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 6px;
+  background-color: #fff;
+  font-size: 1rem;
 }
 
 form button {
-  margin-top: 1rem;
-  padding: 0.7rem 1.5rem;
-  background-color: #FF6B00;
-  color: white;
+  margin-top: 1.2rem;
+  padding: 0.8rem 1.5rem;
+  background-color: #ffb703;
+  color: #000;
   border: none;
-  border-radius: 4px;
+  border-radius: 6px;
+  font-weight: bold;
   cursor: pointer;
   transition: background 0.3s ease;
 }
 
 form button:hover {
-  background-color: #e65500;
+  background-color: #fb8500;
+  color: #fff;
 }
 
 /* Footer */
 footer {
   text-align: center;
-  font-size: 0.9rem;
   color: #888;
-  border-top: 1px solid #eaeaea;
+  font-size: 0.9rem;
+  border-top: 1px solid #e8e8e8;
   padding-top: 1.5rem;
 }
 
 footer a {
-  color: #003366;
+  color: #1d3557;
   text-decoration: none;
-  margin: 0 5px;
+  margin: 0 8px;
 }
 
 footer a:hover {
@@ -160,22 +188,21 @@ footer a:hover {
 }
 
 /* Responsive */
-@media (max-width: 600px) {
+@media (max-width: 640px) {
   nav ul {
     flex-direction: column;
     align-items: center;
   }
 
   header h1 {
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
 
   section h2 {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
 
   form {
     padding: 1rem;
   }
 }
- 
